@@ -21,8 +21,9 @@ tar xf linux-5.4.100.tar.xz
 
 3. 系统必备包
 ```
-# 基于 ubuntu 20.04
-sudo apt install bear clangd git build-essential bc kmod cpio flex libncurses5-dev libelf-dev libssl-dev bison
+# 基于 ubuntu 24.04
+sudo apt install bear clangd git tmux
+sudo apt install build-essential bc kmod cpio flex libncurses5-dev libelf-dev libssl-dev bison rsync lz4
 ```
 
 ## 配置工具
